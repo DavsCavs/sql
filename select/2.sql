@@ -5,7 +5,7 @@
 
 
 
--- USE sql_store;
+USE sql_store;
 -- SELECT first_name,
  -- last_name,
 --  points,
@@ -15,4 +15,5 @@
 
 
 SELECT DISTINCT state FROM customers;
-
+ SELECT * FROM customers
+ limit 5;
